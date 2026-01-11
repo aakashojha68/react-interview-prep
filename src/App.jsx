@@ -8,9 +8,11 @@ import Accordion from "./06-accordian/Accordian";
 import TabSwitcher from "./07-tab-switcher/TabSwitcher";
 import BlogPosts from "./08-blog-post/BlogPost";
 import DebounceInputSearch from "./09-debounce-input-search/DebounceInputSearch";
+import MultiselectDropdown from "./10-multiselect-dropdown/MultiselectDropdown";
+import InfiniteScroll from "./11-infinite-scroll-list/InfiniteScroll";
 
 function App() {
-  return <TabSwitcher />;
+  return <InfiniteScroll />;
 }
 
 export default App;
