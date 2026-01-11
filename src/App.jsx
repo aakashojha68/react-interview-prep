@@ -12,7 +12,7 @@ import MultiselectDropdown from "./10-multiselect-dropdown/MultiselectDropdown";
 import InfiniteScroll from "./11-infinite-scroll-list/InfiniteScroll";
 
 function App() {
-  return <InfiniteScroll />;
+  return <MultiselectDropdown />;
 }
 
 export default App;
