@@ -5,11 +5,11 @@ import SideMenu from "./04-sidebar-menu/SideMenu";
 import ProgressBar from "./05-progress-bar/ProgressBar";
 import RenderAccordians from "./06-accordian/Accordian";
 import Accordion from "./06-accordian/Accordian";
-// import BlogPosts from "./08-blog-post/BlogPost";
+import BlogPosts from "./08-blog-post/BlogPost";
 import DebounceInputSearch from "./09-debounce-input-search/DebounceInputSearch";
 
 function App() {
-  return <RenderAccordians />;
+  return <BlogPosts />;
 }
 
 export default App;
