@@ -5,11 +5,12 @@ import SideMenu from "./04-sidebar-menu/SideMenu";
 import ProgressBar from "./05-progress-bar/ProgressBar";
 import RenderAccordians from "./06-accordian/Accordian";
 import Accordion from "./06-accordian/Accordian";
+import TabSwitcher from "./07-tab-switcher/TabSwitcher";
 import BlogPosts from "./08-blog-post/BlogPost";
 import DebounceInputSearch from "./09-debounce-input-search/DebounceInputSearch";
 
 function App() {
-  return <BlogPosts />;
+  return <TabSwitcher />;
 }
 
 export default App;
