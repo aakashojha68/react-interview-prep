@@ -1,5 +1,27 @@
 import { useState } from "react";
 
+/**
+ * 🧩 Problem Statement: Build a Dynamic Progress Bar Component
+ *
+ * 1. Create a React component with a progress bar that visually fills based on a percentage state (0 to 100).
+ *
+ * 2. Include two buttons:
+ *    - "+10%": Increments the progress by 10 (max 100).
+ *    - "-10%": Decrements the progress by 10 (min 0).
+ *
+ * 3. The inner progress bar should:
+ *    - Animate width change smoothly using transition.
+ *    - Dynamically change color based on percentage:
+ *        - 0–39%   => Red    (bg-red-500)
+ *        - 40–79%  => Orange (bg-orange-500)
+ *        - 80–100% => Green  (bg-green-500)
+ *    - Show rounded corners only on the left, except at 100%, where all corners should be rounded.
+ *
+ * 4. Display the current percentage value above the progress bar.
+ *
+ * 5. Use Tailwind CSS for styling.
+ */
+
 function ProgressBar() {
   const INCREMENT_VALUE = 10;
   const DECREMENT_VALUE = 10;
