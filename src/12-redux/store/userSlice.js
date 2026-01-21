@@ -4,6 +4,7 @@ const userSlice = createSlice({
   name: "coutner",
   initialState: {
     value: 0,
+    theme: false,
   },
   reducers: {
     increment: (state) => {

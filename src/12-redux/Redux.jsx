@@ -5,6 +5,7 @@ import { decrement, increment, customPayload } from "./store/userSlice";
 const Redux = () => {
   const value = useSelector((store) => store.counter.value);
   const dispatch = useDispatch();
+  console.log("Redux comp renders");
   return (
     <>
       <p>Count: {value}</p>

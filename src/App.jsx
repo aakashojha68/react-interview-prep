@@ -14,11 +14,14 @@ import InfiniteScroll from "./11-infinite-scroll-list/InfiniteScroll";
 import Question from "./question/Question";
 import Redux from "./12-redux/Redux";
 import { store } from "./12-redux/store/store";
+import Parent from "./13-context-api/Parent";
+import ReduxParent from "./12-redux/ReduxParent";
 
 function App() {
+  // return <Parent />;
   return (
     <Provider store={store}>
-      <Redux />
+      <ReduxParent />
     </Provider>
   );
 }
